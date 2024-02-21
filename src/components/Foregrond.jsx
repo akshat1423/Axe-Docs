@@ -6,7 +6,7 @@ const Foregrond = () => {
   console.log(ref);
   const data = [
     {
-      desc: "Lorem, ipsum dolor sit amet consectetur. Totam, dolores! bello",
+      desc: "Vanita tamatar khati hai",
       fileSize: "1.0mb",
       close: false,
       tagDetails: {
@@ -16,7 +16,7 @@ const Foregrond = () => {
       },
     },
     {
-      desc: "Lorem, ipsum dolor sit amet consectetur. Totam, dolores! bello",
+      desc: "Vanita amrud khati hai",
       fileSize: "1.0mb",
       close: true,
       tagDetails: {
@@ -26,17 +26,17 @@ const Foregrond = () => {
       },
     },
     {
-      desc: "Lorem, ipsum dolor sit amet consectetur. Totam, dolores! bello",
+      desc: "Incy Pincy Puncy had a great fall",
       fileSize: "1.0mb",
       close: false,
       tagDetails: {
         isOpen: true,
-        tagTitle: "Download Now",
-        tagColor: "green",
+        tagTitle: "Uploading",
+        tagColor: "blue",
       },
     },
     {
-      desc: "Lorem, ipsum dolor sit amet consectetur. Totam, dolores! bello",
+      desc: "Ham bhi bana lenge",
       fileSize: "1.0mb",
       close: true,
       tagDetails: {

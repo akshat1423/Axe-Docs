@@ -12,7 +12,7 @@ const Cards = ({ data, referenace }) => {
       dragConstraints={referenace}
       whileDrag={{ scale: 1.2 }}
       dragTransition={{ bounceStiffness: 600, bounceDamping: 10 }}
-      className=" relative h-72 w-60 rounded-[35px] bg-zinc-700 px-8 py-10 text-white overflow-hidden flex-shrink-0"
+      className=" relative h-72 w-60 rounded-[35px] bg-zinc-700/90 px-8 py-10 text-white overflow-hidden flex-shrink-0"
     >
       <FaRegFileAlt />
       <p className="leading-right text-sm mt-5 font-semibold">{data.desc}</p>
@@ -24,7 +24,7 @@ const Cards = ({ data, referenace }) => {
           </span>
         </div>
         {data.tagDetails.isOpen && (
-          <div className="tag w-full py-4 bg-green-600  flex items-center justify-center">
+          <div className={`tag w-full py-4 ${data.tagDetails.tagColor=="blue" ? "bg-blue-600" : "bg-green-600"}  flex items-center justify-center`}>
             <h3 className=" text-sm font-semibold">
               {data.tagDetails.tagTitle}
             </h3>
